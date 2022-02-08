@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Timer Extension",
+  "version": "1.0.0",
+  "description": "Hello!",
+  "icons": {
+    "16": "image/icon-clock.png",
+    "48": "image/icon-clock.png",
+    "128": "image/icon-clock.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "image/icon-clock-clolor.png",
+      "24": "image/icon-clock-clolor.png",
+      "32": "image/icon-clock-clolor.png"
+    },
+    "default_title": "Timer Extension Action Title",
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html",
+  "permissions": ["storage", "alarms", "notifications"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
