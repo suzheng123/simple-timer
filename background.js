@@ -28,5 +28,3 @@ chrome.alarms.onAlarm.addListener((alarm) => {
     });
   });
 });
-
-console.log(this);
